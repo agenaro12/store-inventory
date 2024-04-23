@@ -1,0 +1,14 @@
+.mainFooter {
+    background: rgb(57, 67, 67);
+    padding: 32px;
+    margin-top: 48px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.mainFooter p {
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: bold;
+}

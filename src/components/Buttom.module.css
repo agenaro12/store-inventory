@@ -1,0 +1,18 @@
+.Buttom__orage {
+    background:#d58529;
+    border: whitesmoke;
+    color: whitesmoke;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    margin: 3px;
+}
+
+.Buttom__orage:hover,
+.Buttom__orage:active{
+    background: whitesmoke;
+    border: #d58529;
+    color: #d58529;
+    box-shadow: 0 0 2px 2px rgba(251, 247, 247,0.6);
+}

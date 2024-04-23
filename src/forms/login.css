@@ -1,0 +1,78 @@
+.login-form {
+    background: #1a2a47;
+    width: 250px;
+    height:270px;
+    border: 2px solid rgba(118, 120, 124, 0.5);
+    padding: 5px;
+    margin: 4px 10px;
+    border-radius: 5px;
+    /*box-shadow: 2px 2px 3px 1px rgba(39, 38, 38,0.75);*/
+    position: absolute;
+    z-index: 0;
+    top:30%;
+    left:40%;
+}
+
+.login-form div {
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.login-form__title {
+    color: white;
+    /*background: goldenrod;
+    border: 2px solid #9d6a10;*/
+    border-radius: 3px;
+    padding: 0;
+    margin: 0;
+}
+
+.login-form label {
+    display: block;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-form__input {
+    margin: 2px;
+    padding: 5px;
+    width: 90%;
+    /*border-radius: 2px;*/
+}
+
+.login-form__link {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.login-form__error {
+    color:crimson;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.login-form__link:hover,
+.login-form__link:active {
+    text-decoration: underline;
+}
+
+.login-form__btnLogin {
+    font-weight: bold;
+    color: whitesmoke;
+    background: #cb8f28;
+    border:1px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login-form__btnLogin:hover,
+.login-form__btnLogin:active {
+    color:#233657;
+    background: whitesmoke;
+    box-shadow: 0 0 4px 2px rgb(28, 51, 127);
+}

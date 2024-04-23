@@ -1,0 +1,43 @@
+.mainHeader {
+    background: #1a2a47;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+
+.mainNav {
+    background: #1a2a47;
+    width: 100%;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    text-align: right;
+}
+
+.mainNav__Items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainNav__Item {
+    display: inline-block;
+    padding: 0;
+    margin: 5px 15px;
+}
+
+.mainNav__Item a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mainNav__Item a:hover,
+.mainNav__Item a:active{
+    color:goldenrod;
+    border-bottom: 3px solid goldenrod;
+}

@@ -1,0 +1,20 @@
+.searchBar__text {
+    width: 65%;
+    border:2px solid #38394d;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.searchBar__text:hover,
+.searchBar__text:active{
+    border: 2px solid #212788;
+    box-shadow: 0 0 2px 2px #efb332;
+}
+
+.searchBar__label{
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+}
