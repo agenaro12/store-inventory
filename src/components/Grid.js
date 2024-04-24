@@ -1,6 +1,8 @@
 const Grid = (props) => {
     return(
-        <div></div>
+        <div>
+            <table></table>
+        </div>
     );
 }
 
