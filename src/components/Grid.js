@@ -1,7 +1,11 @@
+import GridRow from "./GridRow";
+
 const Grid = (props) => {
     return(
         <div>
-            <table></table>
+            <table>
+                <GridRow/>
+            </table>
         </div>
     );
 }
